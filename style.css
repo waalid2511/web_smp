@@ -266,6 +266,8 @@ ul {
         ),
         url('assets/bg-hero.jpg') center center / cover no-repeat;
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
 }
 
 .hero-shapes .shape {
@@ -995,6 +997,12 @@ ul {
         padding-top: 6rem;
         padding-bottom: 4rem;
         min-height: auto;
+        background-attachment: scroll, scroll; 
+        /* Kembali full background (cover) */
+        background-size: cover, cover !important; 
+        background-position: center, center center !important;
+        background-repeat: no-repeat, no-repeat !important;
+        background-color: #0D2B1A; 
     }
     .hero-content h1 {
         font-size: 2rem;
@@ -1115,6 +1123,12 @@ ul {
     /* Hero */
     .hero {
         padding-top: 5rem;
+        background-attachment: scroll, scroll;
+        background-size: cover, cover !important; 
+        background-position: center, center center !important;
+        background-repeat: no-repeat, no-repeat !important;
+        background-color: #0D2B1A;
+        min-height: 100svh;
     }
     .hero-content h1 {
         font-size: 1.7rem;
